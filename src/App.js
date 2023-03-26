@@ -1,8 +1,14 @@
 import React from 'react';
 import Sobre from './objects/Sobre';
+import Logo from './objects/Logo';
 
-const App = () => {
-  return <Sobre />;
-};
+function App() {
+  return (
+    <>
+      <Logo />
+      <Sobre />
+    </>
+  );
+}
 
 export default App;
