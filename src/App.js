@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 
 import Checkbox from './objects/Checkbox';
-import Hashtag from './components/Hashtag';
 import Header from './components/Header';
+import Hashtag from './components/Hashtag';
 
 const App = () => (
   <main className="app">
